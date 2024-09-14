@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Images/Space.jpg);
+    background-repeat: no-repeat;
+    background-size:100vw 100vh; 
+}
+
+
+.chicken{
+    height: 50vh;
+    background-image: url(./Images/Chicken.png);
+    background-repeat: repeat;
+    background-size: 102px 92px;
+    background-clip: padding-box;
+}
+
+.rm{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .m{
+    position: fixed;
+    bottom: -100px;
+    width: 43px;
+    /*display: none; *
+    animation-name: "shoot" ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    transform: translateY(-50%);
+
+} */
+
+.bullet{
+    width: 30px;
+    position: absolute;
+}
+
+.r{
+    width: 111px;
+    z-index: 2;
+}
+
+/* @keyframes shoot {
+    0% {
+        bottom: -100px; /* Start slightly off-screen at the bottom *
+    }
+    100% {
+        bottom: 100vh; /* Move to the top of the viewport and disappear *
+    }
+    
+} */
+
